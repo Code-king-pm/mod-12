@@ -1,0 +1,31 @@
+
+.Div_flex{
+    display: flex;
+    justify-content: space-evenly;
+    
+    }
+
+    #center{
+
+justify-content: space-evenly;
+
+
+    }
+
+
+
+    .img {
+
+border-radius: 50%;
+background-color: black;
+    }
+    .img:hover {
+        transform: scale(1.1); /* Slightly enlarges the image on hover */
+        transition: transform 0.3s ease-in-out;
+
+        opacity: 0.8;
+  border: 2px solid red;
+  filter: brightness(1.2);
+
+      }
+      
